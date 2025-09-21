@@ -1,0 +1,24 @@
+{
+  "name": "projeto-sistema-de-metas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dericmateus10/projeto-sistema-de-metas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dericmateus10/projeto-sistema-de-metas/issues"
+  },
+  "homepage": "https://github.com/dericmateus10/projeto-sistema-de-metas#readme",
+  "dependencies": {
+    "inquirer": "^12.9.6"
+  }
+}
