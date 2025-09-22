@@ -1,7 +1,7 @@
 const { select, input, checkbox } = require('@inquirer/prompts')
 const fs = require("fs").promises
 
-let mensagem = "Bem vindo ao App de Metas";
+let mensagem = "🚀  Bem vindo ao App de Metas";
 
 let metas
 
@@ -156,30 +156,30 @@ const start = async () => {
         await salvarMetas()
 
         const opcao = await select({
-            message: "Menu >",
+            message: "Menu ➡️",
             choices: [
                 {
-                    name: "Cadastrar meta",
+                    name: "📝 Cadastrar metas",
                     value: "cadastrar"
                 },
                 {
-                    name: "Listar metas",
+                    name: "📋 Listar e marcar como concluídas",
                     value: "listar"
                 },
                 {
-                    name: "Metas realizadas",
+                    name: "✅ Ver metas realizadas",
                     value: "realizadas"
                 },
                 {
-                    name: "Metas abertas",
+                    name: "⭕ Ver metas pendentes",
                     value: "abertas"
                 },
                 {
-                    name: "Deletar metas",
+                    name: "🗑️  Deletar metas desnecessárias",
                     value: "deletar"
                 },
                 {
-                    name: "Sair",
+                    name: "❌ Sair",
                     value: "sair"
                 }
             ]

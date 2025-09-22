@@ -82,3 +82,21 @@ Apresentar os dados
 ## Programação assíncrona e Promises:
 
 - [] Uso de funções assíncronas (async/await)
+
+
+# CONFIGURANDO O PROJETO
+
+# 1. Inicializar projeto Node.js
+npm init -y
+
+# 2. Instalar biblioteca para interação
+npm install @inquirer/prompts
+
+# 3. Verificar instalação
+ls node_modules/@inquirer
+
+
+
+
+
+💡 DICA: Sempre verificar se instalou corretamente!
